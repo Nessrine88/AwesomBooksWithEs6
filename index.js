@@ -7,7 +7,7 @@ import {
 
 import { BookCollection } from './modules/bookCollection.js';
 
-import { DateTime } from './modules/luxon/build/es6/luxon.js';
+import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
 
 addBooks.addEventListener('click', addBoo);
 contact.addEventListener('click', contactHandler);
