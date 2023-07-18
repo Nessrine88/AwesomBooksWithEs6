@@ -1,0 +1,198 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 120px;
+}
+
+p {
+  padding: 4px 2px;
+}
+
+h3 {
+  margin-bottom: 15px;
+  margin-top: 70px;
+}
+
+#displayedBooks {
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid;
+  margin-bottom: 30px;
+  max-height: 50vh;
+  overflow-y: scroll;
+}
+
+.titleAdd {
+  align-self: center;
+}
+
+#form {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+#addBtn {
+  float: right;
+  width: 60px;
+  margin-top: 10px;
+  padding: 4px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.8);
+}
+
+.div1 {
+  width: 100%;
+  position: relative;
+}
+
+.removeBtn {
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.8);
+}
+
+#title {
+  margin-bottom: 10px;
+  width: 70%;
+}
+
+#author {
+  width: 70%;
+}
+
+#contact {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navbar {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid;
+  padding: 15px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+#section3 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divAdd {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divBtn {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navList li {
+  margin-left: 15px;
+  margin-right: 15px;
+  border-left: 2px solid;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  border-left: solid 2px;
+  padding: 0 4px;
+  text-align: center;
+}
+
+.noBorder {
+  border: none;
+}
+
+input {
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.even {
+  background-color: lightgrey;
+}
+
+.odd {
+  background-color: white;
+}
+
+.info {
+  width: 80%;
+  height: 40vh;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+#datetime {
+  margin: auto;
+  width: 90%;
+  text-align: right;
+}
+
+#footer {
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+}
+
+.copyright {
+  padding: 10px 0 10px 10px;
+  margin: 20px 0;
+  border: 2px solid;
+}
